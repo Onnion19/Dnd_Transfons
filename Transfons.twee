@@ -124,17 +124,17 @@ Transfons
     <h2>Allò que no encaixa</h2>
 
     <p>
-    Tu no necessàriament vols fugir de Cala Sorda, però tampoc pots mirar-la com si fos un lloc senzill. Hi ha detalls que et criden: un silenci massa llarg, una línia mal traçada, una campana que sembla guardar memòria, una mirada que diu menys del que sap.
+    No vols marxar de Cala Sorda, però tampoc pots mirar-la com si fos un lloc senzill. Hi ha detalls que et criden: les ruines del far,  els silencis de la gent gran, una campana que no repica, mirades que amaguen més del que sembla.
     </p>
 
     <p>
-    Has crescut fent preguntes que altres deixaven passar. Potser no busques perill, però quan el món mostra una esquerda, et costa molt no acostar-t’hi.
+    Has crescut fent preguntes que altres deixaven passar. Potser no busques perill, però quan el món mostra novetats, et costa molt no investigar-les..
     </p>
 
     <div class="divider"></div>
 
     <p class="small">
-    Els teus possibles orígens estan lligats a l’observació, la curiositat, els mapes, la màgia subtil, els rumors i les coses amagades sota la vida quotidiana.
+    Els teus possibles orígens estan lligats a l’observació, la curiositat, els mapes, la màgia, els rumors i les coses amagades sota la vida quotidiana.
     </p>
 
     (link: "Continuar")[
@@ -156,7 +156,7 @@ Transfons
     </p>
 
     <p>
-    Has après que la calma també pot ser força. Que una olla al foc, una eina reparada, una pregària petita o una feina ben feta poden sostenir un poble més que qualsevol gran promesa.
+    Has après que la calma també pot ser força. Que una olla al foc, una eina reparada, una petita pregària o una feina ben feta poden sostenir un poble més que qualsevol gran promesa.
     </p>
 
     <div class="divider"></div>
@@ -276,14 +276,14 @@ Transfons
 </p>
 
 <p>
-  Aquí els dies fan olor de sal, fum de xemeneia, corda molla i peix acabat de descarregar. Les cases blanques s’arrapen a la cala com si tinguessin por que el vent se les endugui, les xarxes pengen dels balcons, les barques grinyolen al port i, quan baixa la marea, l’Escull Negre treu el cap entre l’escuma.
+  Els dies passen a poc a poc, marcats pel ritme del mar, les converses al port i el fum suau que s’alça de les xemeneies al capvespre. Les blanques cases s’arrapen a la cala com si sempre hi haguessin estat, amb les finestres obertes al vent, les xarxes assecant-se als balcons i les barques gronxant-se tranquil·les a l’aigua. Quan baixa la marea, l’Escull Negre treu el cap entre l’escuma, familiar i estrany alhora, com una presència antiga que el poble ha après a mirar de reüll.
 </p>
 
 
 <div class="divider"></div>
 
 <p>
-  A Cala Sorda tothom coneix el teu nom, o almenys creu conèixer-lo. Saben de qui ets fill, quina feina fas, quins rumors t’envolten i quines històries prefereixes no explicar. Però cap vida és tan senzilla com sembla des de fora.
+  A Cala Sorda tothom coneix el teu nom, o almenys creu conèixer-lo. Saben de quina casa vens,, quina feina fas, quins rumors t’envolten i quines històries prefereixes mantenir amagades. Però cap vida és tan senzilla com sembla des de fora.
 </p>
 
 <p>
@@ -302,8 +302,8 @@ Transfons
 <div class="scene scene-tranquilitat"> <div class="card question"> <div class="kicker">Pregunta II</div> <h2>Què t’ha permès la tranquil·litat de Cala Sorda?</h2> <p> Cala Sorda no és un lloc de grans sorpreses. Els dies arriben amb el so de les barques, l’olor de sal i la repetició de feines que tothom coneix. Però fins i tot una vida petita pot deixar marques profundes. </p> (link: "Treballar sense presses i aprendre a fer bé les coses.")[ (set: $impuls to $impuls - 1) (goto: "Pregunta 3") ] (link: "Observar els petits canvis que altres passen per alt.")[ (set: $impuls to $impuls + 0) (goto: "Pregunta 3") ] (link: "Imaginar tot allò que deu existir més enllà de la cala.")[ (set: $impuls to $impuls + 1) (goto: "Pregunta 3") ] </div> </div>
 
 
-:: Pregunta 3 {"position":"1350,750","size":"100,100"}
-<div class="scene scene-rutina right"> <div class="card question"> <div class="kicker">Pregunta III</div> <h2>Quan alguna cosa trenca la rutina del poble, què fas?</h2> <p> A Cala Sorda, qualsevol fet estrany creix de pressa: una campana fora d’hora, una barca que torna massa tard, un visitant que pregunta massa, una ombra al camí del vell far. La gent mira, murmura i espera que algú decideixi què fer. </p> (link: "Busco mantenir la calma i ajudar on faci falta.")[ (set: $impuls to $impuls - 1) (goto: "Decidir Categoria") ] (link: "Intento entendre què no encaixa abans de jutjar-ho.")[ (set: $impuls to $impuls + 0) (goto: "Decidir Categoria") ] (link: "M’hi acosto abans que algú em digui que no ho faci.")[ (set: $impuls to $impuls + 1) (goto: "Decidir Categoria") ] </div> </div>
+:: Pregunta 3 {"position":"1400,750","size":"100,100"}
+<div class="scene scene-rutina right"> <div class="card question"> <div class="kicker">Pregunta III</div> <h2>Quan alguna cosa trenca la rutina del poble, què fas?</h2> <p> A Cala Sorda, qualsevol fet estrany s'escampa de pressa: una campana fora d’hora, una barca que torna massa tard, o una ombra al camí del vell far. La gent mira, murmura i espera que algú decideixi què fer. </p> (link: "Busco mantenir la calma i ajudar on faci falta.")[ (set: $impuls to $impuls - 1) (goto: "Decidir Categoria") ] (link: "Intento entendre què no encaixa abans de jutjar-ho.")[ (set: $impuls to $impuls + 0) (goto: "Decidir Categoria") ] (link: "M’hi acosto abans que algú em digui que no ho faci.")[ (set: $impuls to $impuls + 1) (goto: "Decidir Categoria") ] </div> </div>
 
 
 :: Pregunta Aventurer 1 {"position":"1025,1125","size":"100,100"}
@@ -396,7 +396,7 @@ Transfons
 <h2>Com ajudes la gent de Cala Sorda?</h2> 
 <p> En un poble petit, les necessitats gairebé mai arriben soles. Una paraula pot portar un favor, un deute, una por, una mentida petita o una veritat que ningú vol dir en veu alta. </p> 
 
-<p> Tu has après a moure’t entre aquestes coses. </p>
+<p>Has après a moure’t entre aquestes coses. </p>
 
 (link: "Escolto rumors, negocio favors i sé quina paraula obre cada porta.")[ (goto: " Comerciant") ]
 
@@ -425,7 +425,7 @@ Transfons
 
 (link: "Reparo, reforço i dono una temporada més a coses que altres ja haurien llençat.")[ (goto: "Artesa") ]
 
-(link: "Conec fulles, arrels, algues i verins petits que poden curar o fer mal.")[ (goto: " Herborista") ] 
+(link: "Conec fulles, arrels, algues i verins petits que poden curar o fer mal.")[ (goto: "Herborista") ] 
 
 (link: "Quan una febre no baixa o una ferida empitjora, busco la resposta entre plantes i marees.")[ (goto: "Herborista") ]
 
@@ -443,10 +443,10 @@ Transfons
     <h2>Quan un vaixell desconegut arriba a Cala Sorda, què sents primer?</h2>
 
     <p>
-    No passa sovint. Quan una vela desconeguda entra a la cala, el poble sembla contenir la respiració: els pescadors miren de reüll, les converses baixen de volum i algú sempre corre a avisar el port.
+    No passa sovint. Quan una vela desconeguda entra a la cala, el poble sembla contenir la respiració: els pescadors miren de reüll, les converses baixen de volum i algú sempre corre pels carrerons avisant dels nouvinguts.
     </p>
 
-    (link: "Alleujament quan només venen de pas.")[
+    (link: "Tranquilitat, segurament només venen de pas.")[
       (set: $impuls to $impuls - 1)
       (goto: "Pregunta 2")
     ]
@@ -563,7 +563,7 @@ A Cala Sorda, sempre has sentit que l’horitzó no era un límit, sinó una inv
 
 
 
-:: capella {"position":"1500,1400","size":"100,100"}
+:: capella {"position":"1475,1400","size":"100,100"}
 (set: $transfons to "Escolà de Capella")
 
 <div class="scene scene-transfons-escola-capella question-scene">
@@ -573,11 +573,11 @@ A Cala Sorda, sempre has sentit que l’horitzó no era un límit, sinó una inv
 <h2>Escolà de Capella</h2>
 
 <p>
-  A Cala Sorda, la capella no era un lloc de grans miracles, sinó de mans fredes, bancs gastats i gent que entrava sense saber ben bé què demanar. Tu vas créixer entre espelmes mig consumides, barques beneïdes abans de sortir, noms murmurats pels morts i el so esquerdat d’una campana que tothom respectava més del que admetia.
+  A Cala Sorda, la capella no és un lloc de grans miracles, malgrat que tothom li guarda un respecte. Vas créixer entre espelmes mig consumides, barques beneïdes abans de sortir, noms murmurats pels morts i el so esquerdat d’una campana que tothom temia més del que admetia.
 </p>
 
 <p>
-  Has après que la fe no sempre dona respostes, però pot sostenir una persona quan el mar s’endú la resta.
+  Has après que la fe no sempre dóna respostes, però pot sostenir una persona quan el mar s’endú la resta.
 </p>
 
 <div class="divider"></div>
@@ -868,7 +868,7 @@ Canvia els noms si els teus arxius tenen altres noms
 }
 
 .scene-resultat-aventurer {
---bg: url("images/cala-sorda-vaixell-sortint.png");
+--bg: url("images/cala-sorda-horitzo.png");
 }
 
 .scene-pregunta-aventurer {
